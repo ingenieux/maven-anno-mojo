@@ -15,8 +15,15 @@
   ~ limitations under the License.
   --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.jfrog.maven.annomojo</groupId>
-    <artifactId>maven-plugin-anno-parent</artifactId>
+
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+
+    <groupId>br.com.ingenieux.maven.annomojo</groupId>
+    <artifactId>org.jfrog.maven.maven-plugin-anno-parent</artifactId>
     <version>1.4.1</version>
     <packaging>pom</packaging>
 
@@ -93,8 +100,8 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.jfrog.maven.annomojo</groupId>
-                <artifactId>maven-plugin-anno</artifactId>
+                <groupId>br.com.ingenieux.maven.annomojo</groupId>
+                <artifactId>org.jfrog.maven.maven-plugin-anno</artifactId>
                 <version>1.4.1</version>
             </dependency>
         </dependencies>

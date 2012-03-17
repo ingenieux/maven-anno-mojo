@@ -16,8 +16,8 @@
   --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.jfrog.maven.annomojo</groupId>
-        <artifactId>maven-plugin-anno-parent</artifactId>
+        <groupId>br.com.ingenieux.maven.annomojo</groupId>
+        <artifactId>org.jfrog.maven.maven-plugin-anno-parent</artifactId>
         <version>1.4.1</version>
     </parent>
 
@@ -33,8 +33,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jfrog.maven.annomojo</groupId>
-            <artifactId>maven-plugin-anno</artifactId>
+            <groupId>br.com.ingenieux.maven.annomojo</groupId>
+            <artifactId>org.jfrog.maven.maven-plugin-anno</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.maven.plugin-tools</groupId>
