@@ -21,7 +21,7 @@
         <version>1.4.1</version>
     </parent>
 
-    <artifactId>maven-plugin-tools-anno</artifactId>
+    <artifactId>org.jfrog.maven.maven-plugin-tools-anno</artifactId>
 
     <name>AnnoMojo Extractor</name>
     <description>
